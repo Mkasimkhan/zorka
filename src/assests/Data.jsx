@@ -1,0 +1,223 @@
+export const data = [
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "https://t4.ftcdn.net/jpg/05/55/71/83/240_F_555718315_XAi4cgO4s2uBRshlJZ8wXjAWkptX8023.jpg",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Animoca",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../../images/animoca.png",
+        Vertical: "Health",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Nexters",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/nexters.png",
+        Vertical: "Retail",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Pixonic",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/pixonic.png",
+        Vertical: "Social",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Sensorium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Africa",
+        Platform: "YouTube",
+        Image: "../../images/sensorium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "CIS",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "WorldWide",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Performance Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Performance Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Performance Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    {
+        Company: "Plarium",
+        Name: "RAID: Shadow Legends",
+        Services: "Influencer Marketing",
+        GEO: "Tier 1",
+        Platform: "YouTube",
+        Image: "../images/plarium.png",
+        Vertical: "Games",
+        Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
+
+    },
+    
+]
