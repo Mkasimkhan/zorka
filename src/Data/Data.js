@@ -2,7 +2,9 @@ import P1 from "../images/animoca.png"
 import P2 from "../images/nexters.png"
 import P3 from "../images/pixonic.png"
 import P4 from "../images/plarium.png"
-import P5 from "../images/sensorium.png"
+import sensor from "../images/sensorium.png"
+import mask from "../images/mask.svg"
+import mask1 from "../images/mask1.svg"
 
 
 export const data = [
@@ -56,7 +58,7 @@ export const data = [
         Services: "Influencer Marketing",
         GEO: "Africa",
         Platform: "YouTube",
-        Image: P5,
+        Image: sensor,
         Vertical: "Games",
         Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
 
@@ -225,6 +227,36 @@ export const data = [
         Vertical: "Games",
         Results: "The dragon in the dungeons of RAID: Shadow Legends is one of the most beloved and recognizable bosses. That's why in honor of Easter, we announced a hunt for its eggs! Valuable prizes hidden in the egg awaited the adventurers. We created an AR-quest in which participants had to open a portal in a convenient location by entering their in-game ID. Moving around the place, users could approach the chest, talk to the dragon and get prizes. The project was implemented through a mobile site so that participants did not need to install an additional app to participate.",
 
+    },
+    
+]
+
+export const sliderdata = [
+    {
+        maskImg: mask,
+        logo: P1,
+        
+        
+    },
+    {
+        maskImg: mask1,
+        logo: P2,
+        
+    },
+    {
+        maskImg: mask,
+        logo: P3,
+        
+    },
+    {
+        maskImg: mask1,
+        logo: P4,
+        
+    },
+    {
+        maskImg: mask,
+        logo: sensor,
+        
     },
     
 ]

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import FilterRow from '../FilterRow/FilterRow';
-import { data } from '../../Data/Data';
+import { data } from '../../Data/Data'; 
 import './Filter.css';
 
 function Filter() {
