@@ -1,65 +1,45 @@
-:root {
-    --mask-border-ellipse: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjU0IiBoZWlnaHQ9IjEyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB4PSIxIiB5PSIxIiB3aWR0aD0iMjUyIiBoZWlnaHQ9IjEyMiIgcng9IjYxIiBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMiIvPjwvc3ZnPg==");
-  }
-  
-  .slider-main-container {
-    background-color: #000;
-    margin: auto;
-  }
-  
-  .slider-image-container {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: 200px;
-  }
-  
-  .slider-image {
-    height: 100px;
-    width: auto;
-  }
-  .slider-image {
-    height: 100%;
-    width: auto;
-  }
-  .slider-image > img{
-    margin-right: 4rem;
-  }
-    
-  
-  .el {
-    background-color: #000;
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
-
-    background-image: url("https://images.unsplash.com/photo-1528287942171-fbe365d1d9ac?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&w=1200&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
-    background-size: cover; /* Change to 'cover' to fill the area */
-    background-position: center;
-    background-repeat: no-repeat;
-
-    mask-image: url("../../images/mask.svg");
-    mask-size: contain; /* Adjust this if necessary */
-    mask-repeat: no-repeat;
-    mask-position: bottom; /* Position the mask at the bottom */
-    
-    /* Optional: Set position to relative for better control */
-    position: relative;
+.slider-main-container {
+  background-color: #000;
+  margin: auto;
 }
 
-/* If you want the mask to overlay correctly */
-.el::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 50%; /* Adjust as necessary */
-    background: inherit; /* Make it inherit the background */
-    mask-image: url("../../images/mask.svg");
-    mask-size: cover; /* Adjust this if necessary */
-    mask-repeat: no-repeat;
-    mask-position: center; /* Center the mask */
+.slider-image-container {
+  position: relative;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: auto;
+  height: 200px;
+}
+
+/* Background for 1st, 4th, 7th, etc. */
+.bg1 .slider-image-container {
+  background-image: url(../../images/download.svg);
+}
+
+/* Background for 2nd, 5th, 8th, etc. */
+.bg2 .slider-image-container {
+  background-image: url(../../images/mask.svg);
+}
+
+/* Background for 3rd, 6th, 9th, etc. */
+.bg3 .slider-image-container {
+  background-image: url(../../images/mask1.svg);
+}
+
+.slick-slider .slick-track, .slick-slider .slick-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.slider-image {
+  height: 100%;
+  width: auto;
+}
+
+.slider-image > img {
+  margin-right: 4rem;
 }

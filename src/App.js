@@ -7,6 +7,7 @@ function App() {
     <div className="App">
       <Filter/>
       <AutoSlider/>
+      
     </div>
   );
 }

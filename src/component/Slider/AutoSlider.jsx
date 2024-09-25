@@ -8,13 +8,13 @@ import { sliderdata } from '../../Data/Data';
 
 function AutoSlider() {
   const settings = {
-    // infinite: true,
-    slidesToShow: 5, // Number of slides shown
+    infinite: true, 
+    slidesToShow: 5, 
     slidesToScroll: 1,
-    // autoplay: true,
-    // speed: 2000,
-    // autoplaySpeed: 0,
-    // cssEase: "linear",
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 0,
+    cssEase: "linear",
     arrows: false,
   };
 
@@ -22,18 +22,28 @@ function AutoSlider() {
     <div className="slider-main-container">
       <Slider {...settings}>
         {
-          sliderdata.map((item, i) => (
-            <div key={i} className='slider-container'> {/* Each image in a separate slide */}
-              <div className='slider-image-container'>
-                <img src={item?.maskImg} alt='logo' className='slider-image-mask' />
-                <img src={item?.logo} alt='logo' className='slider-image' />
+          sliderdata.map((item, i) => {
+            // Apply different classes based on the index (1, 4, 7, etc.)
+            let bgClass = '';
+            if ((i + 1) % 3 === 1) {
+              bgClass = 'bg1';
+            } else if ((i + 1) % 3 === 2) {
+              bgClass = 'bg2';
+            } else {
+              bgClass = 'bg3';
+            }
+
+            return (
+              <div key={i} className={`slider-container ${bgClass}`}>
+                <div className='slider-image-container'>
+                  <img src={item?.logo} alt='logo' className='slider-image' />
+                </div>
               </div>
-            </div>
-          ))
+            )
+          })
         }
       </Slider>
     </div>
-
   );
 }
 
